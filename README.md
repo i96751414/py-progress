@@ -3,9 +3,9 @@
   <br/>
   py-progress
 </h1>
-<p align="center">Minimalistic implementation of a progress bar in Python</p>
+<p align="center">Minimalist implementation of a progress bar in Python</p>
 <br/>
-This is a very minimalistic implementation of a text progress bar in Python (both 2 and 3). If your needs require something more complex, please take a look into <a href="https://github.com/WoLpH/python-progressbar">python-progressbar</a>.
+This is a very minimalist implementation of a text progress bar in Python (both 2 and 3). If your needs require something more complex, please take a look into <a href="https://github.com/WoLpH/python-progressbar">python-progressbar</a>.
 
 
 ## Usage
@@ -46,4 +46,4 @@ p.close()
     | show_time | Show time passed since progress bar was initialized | bool |
     | keep_bars | Keep progress bars while printing in the middle | bool |
     | keep_final | Show progress bar after finished | bool |
-    | size | Size of the progress bar | integer |
+    | size | Size of the progress bar | int |
